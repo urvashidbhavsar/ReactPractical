@@ -16,6 +16,7 @@ import Use_reducerex from './Hooksexample/UseReducer/Use_reducerex';
 import Counter from './Hooksexample/UseCallback/Counter';
 import FetchApi from './Hooksexample/customhooks/FetchApi';
 import FetchApihooks from './Hooksexample/customhooks/FetchApihooks';
+import DropdownList from './DropdownList/DropdownList';
 // import CaseEx from './conditional/CaseEx'
 // import Allmethods from './higherOrder/Allmethods'
 // import Logicalex from './conditional/Logicalex'
@@ -72,7 +73,8 @@ function App() {
       {/* <Use_reducerex /> */}
       {/* <Counter /> */}
       {/* <FetchApi /> */}
-      <FetchApihooks />
+      {/* <FetchApihooks /> */}
+      <DropdownList />
     </>
   )
 }
